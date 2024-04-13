@@ -734,6 +734,19 @@ html,body{
     width:200px;
     height:200px;
 }
+
+.char{
+    position: relative;
+    left: 0;
+    top:-100px;
+    bottom:0px;
+}
+@media(max-width:991px){
+    .char{
+        top:0px!important;
+    }
+}
+
 /* .container {
     display: flex;
     flex-direction: column;
@@ -780,3 +793,6 @@ html,body{
     background-size: cover;
   } */
   
+
+
+ 
