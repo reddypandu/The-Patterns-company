@@ -59,14 +59,14 @@
                         <div class="nav-item dropdown active">
                             <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Services</a>
                             <div class="dropdown-menu rounded">
-                                <a href="webdevelopment.html" class="dropdown-item" style="background-color:#7ED958;">
+                                <a href="web-development.html" class="dropdown-item" style="background-color:#7ED958;">
                                     Web And App Development 
                                 </a>
-                                <a href="googleads.html" class="dropdown-item" style="background-color:#7ED958;">Google Ads 
+                                <a href="google-ads.html" class="dropdown-item" style="background-color:#7ED958;">Google Ads 
                                      </a>
                                 <a href="socialmediamarketing.html" class="dropdown-item" style="background-color:#7ED958;">SMM (Social Media Marketing) 
                                     </a>
-                                <a href="searchengineoptimization.html" class="dropdown-item" style="background-color:#7ED958;">SEO (Search Engine Optimization) 
+                                <a href="404.html" class="dropdown-item" style="background-color:#7ED958;">SEO (Search Engine Optimization) 
                                 </a>
                                     
                                 <a href="ecommerce.html" class="dropdown-item" style="background-color:#7ED958;">
@@ -81,7 +81,7 @@
                         <a href="blog.html" class="nav-item nav-link">Blog</a>
                         <a href="gallery.html" class="nav-item nav-link">Gallery</a>
                         <a href="internship.html" class="nav-item nav-link">Internship</a>
-                        <a href="careers.html" class="nav-item nav-link">Careers</a>
+                        <a href="carrers.html" class="nav-item nav-link">Careers</a>
                         <a href="contact.html" class="nav-item nav-link">Contact</a>
                     </div>
                 </div>
@@ -266,7 +266,7 @@
                     <p class="mb-4"> <b>* Search Engine Optimization (SEO) </b></p>
                     <p class="mb-4"> <b>* E-Commerce</b></p>
                     <p class="mb-4"> <b>* Social Media Marketing (SMM) </b></p> -->
-                    <a href="" class="btn btn-secondary rounded-pill px-5 py-3 text-white">More Details</a>
+                    <a href="./about.html" class="btn btn-secondary rounded-pill px-5 py-3 text-white">More Details</a>
 
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-12 wow fadeIn" data-wow-delay=".3s">
@@ -519,7 +519,50 @@
     </div>
     </div>
 
+    <!--FAQ Start-->
 
+    <style>
+        .faq {
+            margin-bottom: 20px;
+        }
+        .question {
+            cursor: pointer;
+            background-color: #f0f0f0;
+            padding: 10px;
+            border-radius: 5px;
+            margin-bottom: 5px;
+            position: relative;
+            background-color: #7ed958;
+            color: #787878;
+            font-weight: 600;
+            font-size: 18px;
+        }
+        .answer {
+            display: none;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin-top: 5px;
+            color: #787878;
+        }
+        .plus::after {
+            content: "+";
+            position: absolute;
+            right: 10px;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+        .minus::after {
+            content: "-";
+            position: absolute;
+            right: 10px;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+        .answer.active {
+            display: block;
+        }
+    </style>
    
     <div class="faq">
         <div class="container">
@@ -530,79 +573,53 @@
             </div>
             <div id="faq-wrapper">
                 <div class="accordion" id="faq">
-                    <div class="card is-active">
-                        <div class="card-header" id="faqhead1" style="background-color: #7ED958;">
-                            <a href="#" class="btn btn-header-link" data-toggle="collapse" data-target="#faq1"
-                                aria-expanded="true" aria-controls="faq1" >What are the industries that INT. mainly works
-                                with?</a>
+                    <div class="faq is-active">
+                        <div class="question plus" id="faqhead1" style="background-color: #7ED958;">
+                            What services does Patterns Company offer?
                         </div>
-                        <div id="faq1" class="collapse show" aria-labelledby="faqhead1" data-parent="#faq">
-                            <div class="card-body" >
-                                <p>INT. mainly works with the real estate, ed-tech, food & beverages, hospitality and
-                                    recreation industries. However, we don’t limit ourselves to these sectors alone.
-                                    Being a reputable product engineering firm, if we think we can add value to your
-                                    project, then we’ll work with you regardless of what industry your business is in.
-                                    Our portfolio should give you a good idea of the types of industries we’ve worked
-                                    with before. So, whether you want enterprise application development or want to
-                                    develop your website or application or any other customised digital solutions, INT.
-                                    is the best digital product design agency.</p>
-                            </div>
+                        <div id="faq1" class="answer collapse show" aria-labelledby="faqhead1" data-parent="#faq">
+                            Patterns Company offers a comprehensive range of digital marketing and development services tailored to meet the diverse needs of clients. Some of the key services include Web development, Digital Marketing(SEO, SMM, Google ads), Graphic Designing, and Wed design.
                         </div>
                     </div>
-                    <div class="card">
-                        <div class="card-header" id="faqhead2" style="background-color: #7ED958;">
-                            <a href="#" class="btn btn-header-link collapsed" data-toggle="collapse" data-target="#faq2"
-                                aria-expanded="true" aria-controls="faq2">What is the project management style of
-                                INT.?</a>
+                    <div class="faq is-active">
+                        <div class="question plus" id="faqhead1" style="background-color: #7ED958;">
+                            How does Patterns Company approach web development projects?
                         </div>
-                        <div id="faq2" class="collapse" aria-labelledby="faqhead2" data-parent="#faq">
-                            <div class="card-body">
-                                <p>Well, INT. has an Agile development team so that the clients can give their valuable
-                                    feedback throughout the project. Also, with Agile methodology, testing happens
-                                    regularly through the whole process and the developers can focus on client
-                                    satisfaction.</p>
-                            </div>
+                        <div id="faq1" class="answer collapse show" aria-labelledby="faqhead1" data-parent="#faq">
+                            Patterns Company takes a step-by-step approach to web development projects, making sure they understand what the client needs and creating a website that meets those needs well. Here's a step by step process: Initial Consultation and Requirements Gathering, Strategic Planning and Conceptualization, Design and Development, User Experience (UX) Optimization, Launch and Deployment, Post-Launch Support and Maintenance.
                         </div>
                     </div>
-                    <div class="card">
-                        <div class="card-header" id="faqhead3" style="background-color: #7ED958;">
-                            <a href="#" class="btn btn-header-link collapsed" data-toggle="collapse" data-target="#faq3"
-                                aria-expanded="true" aria-controls="faq3">How much do I need to pay for availing the
-                                services of INT.?</a>
+                    <div class="faq is-active">
+                        <div class="question plus" id="faqhead1" style="background-color: #7ED958;">
+                            How does Patterns Company stay updated with the latest trends in digital marketing and development?
                         </div>
-                        <div id="faq3" class="collapse" aria-labelledby="faqhead3" data-parent="#faq">
-                            <div class="card-body">
-                                <p>At INT., you can find the best talent for technology outsourcing services. Let’s say,
-                                    you want to build a website for better client engagement and more traffic. Being a
-                                    website development firm having more than 24 years of experience, we have a team of
-                                    information architects for better customer experience and reduction of dropout rate.
-                                    We cater to individual requests depending on your exact skill requirement. <a
-                                        href="https://www.indusnet.co.in/contact-us/?utm_source=landing+page&utm_medium=paid&utm_campaign=landing_page&utm_term=landingpage_CTA"
-                                        target="_blank">Contact us</a> to get the customised quotation for your
-                                    requirements and drive your business revenue.</p>
-                            </div>
+                        <div id="faq1" class="answer collapse show" aria-labelledby="faqhead1" data-parent="#faq">
+                            Patterns Company stays updated with the latest trends in digital marketing and development through a variety of methods like Continuous learning, Industry research, Networking, collaboration with clients,  Experimentation and innovation. By leveraging these methods, Patterns Company ensures that they remain at the forefront of digital marketing and development trends, enabling them to deliver cutting-edge solutions and drive success for their clients.
                         </div>
                     </div>
-                    <div class="card">
-                        <div class="card-header" id="faqhead4" style="background-color: #7ED958;">
-                            <a href="#" class="btn btn-header-link collapsed" data-toggle="collapse" data-target="#faq4"
-                                aria-expanded="true" aria-controls="faq4">Does INT. provide any project timelines?</a>
+                    <div class="faq is-active">
+                        <div class="question plus" id="faqhead1" style="background-color: #7ED958;">
+                            How does Patterns Company ensure data security and privacy in its projects?
                         </div>
-                        <div id="faq4" class="collapse" aria-labelledby="faqhead4" data-parent="#faq">
-                            <div class="card-body">
-                                <p>Project timelines vary with the type of projects and the type of industries we serve.
-                                    We can provide you with the project timeline once we get detailed information about
-                                    your requirements. INT. is a top-rated IT solution provider company and has great
-                                    expertise in serving a wide range of reputable industries for more than two decades.
-                                    So, you can expect complete transparency about the timelines from the very beginning
-                                    and get custom software development solutions from expert developers.</p>
-                            </div>
+                        <div id="faq1" class="answer collapse show" aria-labelledby="faqhead1" data-parent="#faq">
+                            Patterns Company ensures data security and privacy in its projects through a multifaceted approach. They employ robust encryption techniques to safeguard sensitive data both in transit and at rest, ensuring that unauthorized access is prevented. Access controls are strictly enforced, limiting access to confidential information only to authorized personnel through mechanisms like role-based access control and multi-factor authentication. Regular security audits and compliance checks ensure that their systems meet industry standards and regulatory requirements, while employee training programs foster a culture of security awareness within the organization. 
                         </div>
                     </div>
+                    <div class="faq is-active">
+                        <div class="question plus" id="faqhead1" style="background-color: #7ED958;">
+                            How does Patterns Company integrate SEO strategies into web development projects?
+                        </div>
+                        <div id="faq1" class="answer collapse show" aria-labelledby="faqhead1" data-parent="#faq">
+                            Patterns Company seamlessly integrates SEO strategies into its web development projects to ensure optimal visibility and ranking on search engine results pages (SERPs). They begin by conducting comprehensive keyword research to identify relevant search terms and phrases that align with the client's goals and target audience. Utilizing this data, they optimize website structure, meta tags, headings, and content to enhance crawlability and indexability for search engine bots. Additionally, Patterns Company focuses on creating high-quality, engaging content that incorporates targeted keywords naturally while providing value to users. By following SEO best practices and staying updated with algorithm changes, Patterns Company maximizes the potential for organic traffic and improved search engine rankings for their clients' websites.
+                        </div>
+                    </div>
+                </div>
                 </div>
             </div>
         </div>
     </div>
+    <!--FAQ End-->
+
     <!-- Blog Start -->
     <div class="container-fluid blog py-5 mt-5" style="background-color: #000000;">
         <div class="container">
@@ -610,8 +627,9 @@
                 <h5 class="text-primary" style="font-size: 50px;">Our Blog</h5>
                 <h1 style="font-size: 30px;">Latest Blog & News</h1>
             </div>
-            <div class="row g-5 justify-content-center">
-                <div class="col-lg-6 col-xl-4 wow fadeIn" data-wow-delay=".3s">
+            <!-- <div class="row g-5 justify-content-center"> -->
+                <div class="row owl-carousel clients-carousel wow fadeIn" data-wow-delay=".5s">
+                <div class="  wow fadeIn" data-wow-delay=".3s">
                     <div class="blog-item position-relative bg-light rounded">
                         <img src="img/webdesign000.png" class="img-fluid w-100 rounded-top" alt="">
                         <span class="position-absolute px-4 py-3 bg-primary text-white rounded"
@@ -645,7 +663,7 @@
                         </div> -->
                     </div>
                 </div>
-                <div class="col-lg-6 col-xl-4 wow fadeIn" data-wow-delay=".5s">
+                <div class="  wow fadeIn" data-wow-delay=".5s">
                     <div class="blog-item position-relative bg-light rounded">
                         <img src="img/webdevelop.png" class="img-fluid w-100 rounded-top" alt="">
                         <span class="position-absolute px-4 py-3 bg-primary text-white rounded"
@@ -680,7 +698,7 @@
                         </div> -->
                     </div>
                 </div>
-                <div class="col-lg-6 col-xl-4 wow fadeIn" data-wow-delay=".7s">
+                <div class=" wow fadeIn" data-wow-delay=".7s">
                     <div class="blog-item position-relative bg-light rounded">
                         <img src="img/mobileapp000.png" class="img-fluid w-100 rounded-top" alt="">
                         <span class="position-absolute px-4 py-3 bg-primary text-white rounded"
@@ -715,7 +733,7 @@
                         </div> -->
                     </div>
                 </div>
-                <div class="col-lg-6 col-xl-4 wow fadeIn" data-wow-delay=".5s">
+                <div class=" wow fadeIn" data-wow-delay=".5s">
                     <div class="blog-item position-relative bg-light rounded">
                         <img src="img/Seo.png" class="img-fluid w-100 rounded-top" alt="">
                         <span class="position-absolute px-4 py-3 bg-primary text-white rounded"
@@ -750,7 +768,7 @@
                         </div> -->
                     </div>
                 </div>
-                <div class="col-lg-6 col-xl-4 wow fadeIn" data-wow-delay=".5s">
+                <div class=" wow fadeIn" data-wow-delay=".5s">
                     <div class="blog-item position-relative bg-light rounded">
                         <img src="img/smmm.png" class="img-fluid w-100 rounded-top" alt="">
                         <span class="position-absolute px-4 py-3 bg-primary text-white rounded"
@@ -785,7 +803,7 @@
                         </div> -->
                     </div>
                 </div>
-                <div class="col-lg-6 col-xl-4 wow fadeIn" data-wow-delay=".5s">
+                <div class=" wow fadeIn" data-wow-delay=".5s">
                     <div class="blog-item position-relative bg-light rounded">
                         <img src="img/google00.png" class="img-fluid w-100 rounded-top" alt="">
                         <span class="position-absolute px-4 py-3 bg-primary text-white rounded"
@@ -822,8 +840,9 @@
                     </div>
                 </div>
             </div>
-        </div>
+        
     </div>
+</div>
     <!-- Blog End -->
 
 
@@ -904,7 +923,7 @@
         <div class="overlay">
     <div class="container " >
 
-        <h5 class=" text-center py-3" style="color: burlywood;">OUR HAPPY CLIENTS</h5>
+        <h5 class=" text-center py-3" style="color:#7ED958">OUR HAPPY CLIENTS</h5>
         <div class="row g-4 pt-5">
             <div class="col-md-6 col-lg-4 wow fadeIn text-center" data-wow-delay="0.1s">
 <div>
@@ -915,7 +934,7 @@
                     been a game-changer for my business. Their team is knowledgeable, creative, and
                     always on
                     top of the latest trends in social media.</p>
-                    <h4 style="color: burlywood;">Anil Kumar</h4>
+                    <h4 style="color:#7ED958">Pavan</h4>
                 </div>
                 <div class="col-md-6 col-lg-4 wow fadeIn text-center" data-wow-delay="0.1s">
                     <div>
@@ -926,7 +945,7 @@
                         business, the video was interesting, informative and the team was professional,
                         creative,
                         and a joy to deal with them. They Provide Best SEO Services in Hyderabad </p>
-                        <h4 style="color: burlywood;">Daiva kumar</h4>
+                        <h4 style="color:#7ED958"> Raja Rao</h4>
                     </div>
                     <div class="col-md-6 col-lg-4 wow fadeIn text-center" data-wow-delay="0.1s">
                         <div>
@@ -937,7 +956,7 @@
                             company's growth. We've experienced a huge rise in website traffic and leads. I
                             would
                             strongly suggest everyone.</p>
-                            <h4 style="color:burlywood">Pandu</h4>
+                            <h4 style="color:#7ED958">Anil</h4>
                         </div>
             </div>
     </div>
@@ -1015,7 +1034,7 @@ z-index: -4;
                             </div>
                             <div class="ms-3">
                                 <h4 class="text-primary">Email Us</h4>
-                                <a class="h5" href="mailto:info@example.com"
+                                <a class="h5" style="margin: -25px !important;;" href="mailto:info@example.com"
                                     target="_blank">info@thepatternscompany.com</a>
                             </div>
                         </div>
@@ -1061,103 +1080,104 @@ z-index: -4;
 
     <!-- Footer Start -->
     <div class="container-fluid footer  wow fadeIn" data-wow-delay=".3s" >
-        <div class="container pt-5 pb-4" style="max-width: 100%;">
-            <div class="row g-5">
-                <div class="col-lg-3 col-md-6 text-center">
-                    <a href="index.html">
-                        <img src="./img/tpchhhhhhhhh.png">
-                    </a>
-                   
-                    <!-- <p class="mt-4 text-light">We are ready to give our best services in a way of Digital
-                        Marketing and
-                        Web Development</p> -->
-                    <div class="d-flex hightech-link align-items-center justify-content-center py-3 mt-6">
-                        <a href="https://www.facebook.com/webappdigitalmarketing"
-                            class="btn-light nav-fill btn btn-square rounded-circle me-2 p-2"><i
-                                class="fab fa-facebook-f text-primary"></i></a>
-                        <a href="https://twitter.com/i/flow/login?redirect_after_login=%2FThepatterns1"
-                            class="btn-light nav-fill btn btn-square rounded-circle me-2 p-2"><i
-                                class="fab fa-twitter text-primary"></i></a>
-                        <a href="https://www.instagram.com/thepatternscompany/"
-                            class="btn-light nav-fill btn btn-square rounded-circle me-2 p-2"><i
-                                class="fab fa-instagram text-primary"></i></a>
-                        <a href="https://www.linkedin.com/company/the-patterns-company/mycompany/?viewAsMember=true"
-                            class="btn-light nav-fill btn btn-square rounded-circle me-0 p-2"><i
-                                class="fab fa-linkedin-in text-primary"></i></a>
+            <div class="container pt-5 pb-4 mt-2" style="max-width: 100%;">
+                <div class="row g-5">
+                    <div class="col-lg-3 col-md-6 text-center">
+                        <a href="index.html">
+                            <img src="./img/tpchhhhhhhhh.png">
+                        </a>
+                       
+                        <!-- <p class="mt-4 text-light">We are ready to give our best services in a way of Digital
+                            Marketing and
+                            Web Development</p> -->
+                        <div class="d-flex hightech-link align-items-center justify-content-center py-3">
+                            <a href="https://www.facebook.com/webappdigitalmarketing"
+                                class="btn-light nav-fill btn btn-square rounded-circle me-2 p-2"><i
+                                    class="fab fa-facebook-f text-primary"></i></a>
+                            <a href="https://twitter.com/i/flow/login?redirect_after_login=%2FThepatterns1"
+                                class="btn-light nav-fill btn btn-square rounded-circle me-2 p-2"><i
+                                    class="fab fa-twitter text-primary"></i></a>
+                            <a href="https://www.instagram.com/thepatternscompany/"
+                                class="btn-light nav-fill btn btn-square rounded-circle me-2 p-2"><i
+                                    class="fab fa-instagram text-primary"></i></a>
+                            <a href="https://www.linkedin.com/company/the-patterns-company/mycompany/?viewAsMember=true"
+                                class="btn-light nav-fill btn btn-square rounded-circle me-0 p-2"><i
+                                    class="fab fa-linkedin-in text-primary"></i></a>
+                        </div>
                     </div>
-                </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <a href="#" class="h3 " style="color:#7ED958">Quick Links</a>
-                    <div class="mt-4 d-flex flex-column short-link">
-                        <a href="./index.html" class="mb-2 text-white"></i>Home
-                        </a>
-                        <a href="./about.html" class="mb-2 text-white">About
-                        </a>
-                        <a href="./service.html" class="mb-2 text-white">Services
-                        </a>
-                        <a href="./blog.html" class="mb-2 text-white">Blog</a>
-                        <a href="./gallery.html" class="mb-2 text-white">Gallery</a>
-                        <a href="./internship.html" class="mb-2 text-white">Internship</a>
-                        <a href="./carrers.html" class="mb-2 text-white">Careers</a>
-                        <a href="./contact.html" class="mb-2 text-white">Contact
-                        </a>
-                        <!-- <a href="" class="mb-2 text-white"><i class="fas fa-angle-right text-secondary me-2"></i>Latest
-                            Blog</a> -->
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6">
-                    <a href="#" class="h3 " style="color:#7ED958">Our Services</a>
-                    <div class="mt-4 d-flex flex-column help-link">
-                        <a href="web-development.html" class="mb-2 text-white">Web and App Development
-                                </a>
-                        <a href="google-ads.html" class="mb-2 text-white">Google Ads
+                    <div class="col-lg-3 col-md-6 text-center">
+                        <a href="#" class="h3 " style="color:#7ED958">Quick Links</a>
+                        <div class="mt-4 d-flex flex-column short-link">
+                            <a href="./index.html" class="mb-2 text-white"></i>Home
                             </a>
-                        <a href="social-media-marketing.html" class="mb-2 text-white">Social Media Marketing(SMM)</a>
-                        <a href="404.html" class="mb-2 text-white">SEO-Search Engine Optimization(SEO)</a>
-                        <a href="ecommerce.html" class="mb-2 text-white">E-Commerce</a>
-                        <a href="graphicdesigning.html" class="mb-2 text-white">Graphic Designing</a>
+                            <a href="./about.html" class="mb-2 text-white">About
+                            </a>
+                            <a href="./service.html" class="mb-2 text-white">Services
+                            </a>
+                            <a href="./blog.html" class="mb-2 text-white">Blog</a>
+                            <a href="./gallery.html" class="mb-2 text-white">Gallery</a>
+                            <a href="./internship.html" class="mb-2 text-white">Internship</a>
+                            <a href="./carrers.html" class="mb-2 text-white">Careers</a>
+                            <a href="./contact.html" class="mb-2 text-white">Contact
+                            </a>
+                           
+                            <!-- <a href="" class="mb-2 text-white"><i class="fas fa-angle-right text-secondary me-2"></i>Latest
+                                Blog</a> -->
+                        </div>
+                    </div>
+    
+                    <div class="col-lg-3 col-md-6">
+                        <a href="#" class="h3 " style="color:#7ED958">Our Services</a>
+                        <div class="mt-4 d-flex flex-column help-link">
+                            <a href="web-development.html" class="mb-2 text-white">Web and App Development
+                            </a>
+                    <a href="google-ads.html" class="mb-2 text-white">Google Ads
+                        </a>
+                    <a href="social-media-marketing.html" class="mb-2 text-white">Social Media Marketing(SMM)</a>
+                    <a href="404.html" class="mb-2 text-white">SEO-Search Engine Optimization(SEO)</a>
+                    <a href="ecommerce.html" class="mb-2 text-white">E-Commerce</a>
+                    <a href="graphicdesigning.html" class="mb-2 text-white">Graphic Designing</a>
+                    </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <img src="./img/char222.png" style="object-fit: scale-down;max-width: 100%; ">
+    
                     </div>
                 </div>
-                <div class="col-lg-3">
-                    <img src="./img/char222.png" style="object-fit:scale-down; max-width: 100%;">
-
-                </div>
-            </div>
-            <hr class="text-light mt-5 mb-4">
-            <div class="row">
-                <div class="col-md-6 text-center text-md-start">
-                    <span class="text-light"><a href="#" style="color:#7ED958"><i
-                                class="fas fa-copyright me-2"></i>Copy Rights</a>, All
-                        right
-                        reserved.</span>
-                </div>
-                <div class="col-md-6 text-center text-md-end">
-                    <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
-                    <span class="text-light">Designed By <a href="" style="color:#7ED958">THE
-                            PATTERNS COMPANY</a></span>
+                <hr class="text-light mt-5 mb-4">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start">
+                        <span class="text-light"><a href="#" style="color:#7ED958"><i
+                                    class="fas fa-copyright me-2"></i>Copy Rights</a>, All
+                            right
+                            reserved.</span>
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                        <span class="text-light">Designed By <a href="" style="color:#7ED958">THE
+                                PATTERNS COMPANY</a></span>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-    <!-- Footer End -->
-
-
-    <!-- Back to Top -->
-    <a href="#" class="btn btn-secondary btn-square rounded-circle back-to-top"><i
-            class="fa fa-arrow-up text-white"></i></a>
-
-
-    <!-- JavaScript Libraries -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="lib/wow/wow.min.js"></script>
-    <script src="lib/easing/easing.min.js"></script>
-    <script src="lib/waypoints/waypoints.min.js"></script>
-    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-
-    <!-- Template Javascript -->
-    <script src="js/main.js"></script>
-</body>
-
-</html>
+        <!-- Footer End -->
+    
+    
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-secondary btn-square rounded-circle back-to-top"><i
+                class="fa fa-arrow-up text-white"></i></a>
+    
+    
+        <!-- JavaScript Libraries -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+    </body>
+    
+    </html>
