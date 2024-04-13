@@ -404,6 +404,9 @@
 .services-item:hover .services-content-icon p {
     color: var(--bs-white);
 }
+.subheading{
+    text-align:center;
+}
 
 /*** Services End ***/
 
