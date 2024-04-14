@@ -40,12 +40,12 @@
    
 
     <!-- Navbar Start -->
-    <div class="container-fluid bg-primary sticky">
+    <div class="container-fluid bg-primary py-3" id="head">
         <div class="container">
             <nav class="navbar navbar-dark navbar-expand-lg py-0">
                 <a href="index.html" class="navbar-brand">
                     <!-- <h1 class="text-white fw-bold d-block">High<span class="text-secondary">Tech</span> </h1> -->
-                    <img src="./img/logo.webp" alt="" style="width: 200px;">
+                    <img src="./img/logo-white-lack.png" alt="" style="width: 200px;">
                 </a>
                 <button type="button" class="navbar-toggler me-0" data-bs-toggle="collapse"
                     data-bs-target="#navbarCollapse">
@@ -108,9 +108,19 @@
             <i class="fab fa-whatsapp"></i>
         </a>
     </div>
-    <style>
-       
-    </style>
+<script>
+window.addEventListener('scroll', function() {
+    var header = document.getElementById('head');
+
+    if (window.scrollY > 200) {
+        header.classList.add('sticky');
+    } else {
+        header.classList.remove('sticky');
+    }
+});
+
+
+</script>
     <!-- Carousel Start -->
     <div class="container-fluid px-0 hero">
       
@@ -129,7 +139,7 @@
                                  >Read
                                 More</button></a>
                         <a href="./contact.html" class="ms-2"><button type="button"
-                                class="con-us px-4 py-sm-3 px-sm-5  rounded-pill carousel-content-btn2 animated fadeInRight"
+                                class="con-us px-4 py-sm-3 px-sm-5  btn rounded-pill carousel-content-btn2 animated fadeInRight"
                                 >Contact
                                 Us</button></a>
                         
@@ -196,25 +206,25 @@
             <div class="row">
                 <div class="col-lg-3 wow fadeIn" data-wow-delay=".1s">
                     <div class="d-flex counter">
-                        <h1 class="me-3 text-primary counter-value success">500</h1>
-                        <h5 class="text-white mt-1">Success in getting happy customer</h5>
+                        <h1 class="me-3 text-primary "> <span class="counter-value success">500</span><span class="text-dark">+</span></h1> 
+                        <h5 class="text-white mt-1">Happy Customers</h5>
                     </div>
                 </div>
                 <div class="col-lg-3 wow fadeIn" data-wow-delay=".3s">
                     <div class="d-flex counter">
-                        <h1 class="me-3 text-primary counter-value success">1000</h1>
+                        <h1 class="me-3 text-primary "><span class="counter-value success">1000</span><span class="text-dark">+</span></h1>
                         <h5 class="text-white mt-1">Digital Transformations</h5>
                     </div>
                 </div>
                 <div class="col-lg-3 wow fadeIn" data-wow-delay=".5s">
                     <div class="d-flex counter">
-                        <h1 class="me-3 text-primary counter-value success">27</h1>
+                        <h1 class="me-3 text-primary"><span class="counter-value success">27</span><span class="text-dark">+</span></h1>
                         <h5 class="text-white mt-1">Glorious Expereince</h5>
                     </div>
                 </div>
                 <div class="col-lg-3 wow fadeIn" data-wow-delay=".7s">
                     <div class="d-flex counter">
-                        <h1 class="me-3 text-primary counter-value success">50</h1>
+                        <h1 class="me-3 text-primary"><span class="counter-value success">50</span><span class="text-dark">+</span></h1>
                         <h5 class="text-white mt-1">Our Team</h5>
                     </div>
                 </div>
@@ -222,7 +232,14 @@
         </div>
     </div>
     <!-- Fact End -->
-
+<style>
+    .counter{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+    }
+</style>
 
     <!-- About Start -->
     <div class="container-fluid py-5" style="background-color: #000000;">
@@ -316,7 +333,7 @@
                         <div class="p-4 text-center services-content">
                             <div class="services-content-icon">
                                 <!-- <i class="fa fa-code fa-7x mb-4 text-primary"></i> -->
-                                <img src="./img/web and app deployment.webp" alt="" style="width: 200px;">
+                                <img src="./img/web and app deployment.webp" alt="" style="max-width: 100%;">
                                 <h4 class="mb-3">Web And App Development Services</h4>
                                 <p class="mb-4" style="justify-content: left;">Web and app development by Patterns Company is a seamless blend of innovation and functionality. Our team crafts dynamic websites and applications tailored to your specific needs, leveraging the latest technologies to ensure optimal performance. From elegant designs to robust coding, we prioritize user experience and scalability, delivering solutions that elevate your digital presence.</p>
                                 <a href="webdevelopment.html"><button  style="padding: 18px; border-radius: 15px; background:linear-gradient(45deg, white 40%,rgb(80, 255, 92) 59%) ;">view</button></a>
@@ -329,7 +346,7 @@
                         <div class="p-4 text-center services-content">
                             <div class="services-content-icon">
                                 <!-- <i class="fa fa-file-code fa-7x mb-4 text-primary"></i> -->
-                                <img src="./img/googleadds999.jpg" alt="" style="width: 200px;">
+                                <img src="./img/googleadds999.jpg" alt="" style="max-width: 100%;">
                                 <h4 class="mb-3">Google Ads Services In Hyderabad</h4>
                                 <p class="mb-4" style="justify-content: left;">Maximize Your Online Visibility with Our Google Ads Services! Reach Your Target Audience Instantly and Drive Qualified Traffic to Your Website. Our Expert Team Strategically Crafts Compelling Ad Copy to Capture Attention and Boost Click-Through Rates. With Data-Driven Optimization Techniques, We Ensure Every Ad Dollar Is Well-Spent, Delivering Maximum ROI. </p>
                                 <a href="googleads.html"><button  style="padding: 18px; border-radius: 15px; background:linear-gradient(45deg, white 40%,rgb(80, 255, 92) 59%) ;">view</button></a>
@@ -342,7 +359,7 @@
                         <div class="p-4 text-center services-content">
                             <div class="services-content-icon">
                                 <!-- <i class="fa fa-external-link-alt fa-7x mb-4 text-primary"></i> -->
-                                <img src="./img/Digitalmarketingservices.webp" alt="" style="width: 200px;">
+                                <img src="./img/Digitalmarketingservices.webp" alt="" style="max-width: 100%;">
                                 <h4 class="mb-3">SMM (Social Media Marketing) Services In Hyderabad</h4>
                                 <p class="mb-4" style="justify-content: left;">Social Media Marketing (SMM) is a powerful strategy for businesses to connect with their audience, build brand awareness, and drive engagement. By leveraging platforms like Facebook, Instagram, Twitter, and LinkedIn, SMM allows companies to reach target demographics, promote products or services, and foster meaningful relationships with customers. </p>
                                 <a href="socialmediamarketing.html"><button  style="padding: 18px; border-radius: 15px; background:linear-gradient(45deg, white 40%,rgb(80, 255, 92) 59%) ;">view</button></a>
@@ -355,7 +372,7 @@
                         <div class="p-4 text-center services-content">
                             <div class="services-content-icon">
                                 <!-- <i class="fas fa-user-secret fa-7x mb-4 text-primary"></i> -->
-                                <img src="./img/search-engines-concept-illustration.webp" alt="" style="width: 200px;">
+                                <img src="./img/search-engines-concept-illustration.webp" alt="" style="max-width: 100%;">
                                 <h4 class="mb-3">SEO (Search Engine Optimization) Services In Hyderabad</h4>
                                 <p class="mb-4" style="justify-content: left;">Optimize your website's visibility with Patterns Company's SEO services, enhancing search engine rankings and driving organic traffic. Our expert strategies ensure maximum exposure and increased online presence, ultimately boosting your business's growth and profitability.</p>
                                 <a href="searchengineoptimization.html"><button  style="padding: 18px; border-radius: 15px; background:linear-gradient(45deg, white 40%,rgb(80, 255, 92) 59%) ;">view</button></a>
@@ -369,7 +386,7 @@
                         <div class="p-4 text-center services-content">
                             <div class="services-content-icon">
                                 <!-- <i class="fa fa-envelope-open fa-7x mb-4 text-primary"></i> -->
-                                <img src="./img/online-shopping-concept-illustration.webp" alt="" style="width: 200px;">
+                                <img src="./img/online-shopping-concept-illustration.webp" alt="" style="max-width: 100%;">
                                 <h4 class="mb-3">E-Commerce Services In Hyderabd</h4>
                                 <p class="mb-4" style="justify-content: left;">If you want to start a new business or improve your already existing
                                     business online, Its better to use E-Commerce Services In Hyderabad it is best as
@@ -384,7 +401,7 @@
                         <div class="p-4 text-center services-content">
                             <div class="services-content-icon">
                                 <!-- <i class="fa fa-envelope-open fa-7x mb-4 text-primary"></i> -->
-                                <img src="./img/graphic - Copy.webp" alt="" style="width: 200px;">
+                                <img src="./img/graphic - Copy.webp" alt="" style="max-width: 100%;">
                                 <h4 class="mb-3">Graphic Designing Services In Hyderabd</h4>
                                 <p class="mb-4" style="justify-content: left;">If you want to start a new business or improve your already existing
                                     business online, Its better to use E-Commerce Services In Hyderabad it is best as
